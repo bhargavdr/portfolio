@@ -82,18 +82,6 @@ function NavigationBar() {
               >
                 Resume
               </Nav.Link>
-              <Nav.Link
-                as={Link}
-                to="/contact"
-                style={
-                  location.pathname === '/contact'
-                    ? { ...navLinkStyle, color: 'black' }
-                    : navLinkStyle
-                }
-                onClick={handleNavLinkClick}
-              >
-                Contact
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
