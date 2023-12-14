@@ -6,6 +6,7 @@ import ExpenseTrackerPreview from '../assets/images/ExpenseTrackerApp.png';
 import MovieAppPreview from '../assets/images/MovieApp.png';
 import TodoAppPreview from '../assets/images/TodoListApp.png';
 import ObjectDetection from '../assets/images/ObjectDetection.png'
+import AgLogo from '../assets/images/aglogo.png'
 
 const Portfolio = () => {
   const tagsTodo = ['Frontend' , 'ReactJS'];
@@ -24,7 +25,7 @@ const Portfolio = () => {
           <Col>
             <Card
               link="https://www.ariveguru.com/"
-              img="https://scontent.fblr8-1.fna.fbcdn.net/v/t39.30808-6/306660753_413988614174282_206822233165278305_n.png?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=CBQpImhBzaUAX81fbD5&_nc_ht=scontent.fblr8-1.fna&oh=00_AfAFTSAaZyv3-Cpn0ZgqdxPTu5K31PsxdqD2RuKIgMutxg&oe=6578FB98"
+              img={AgLogo}
               title="Ariveguru Technology Solutions"
               description="React Developer"
               start="April 2023"
