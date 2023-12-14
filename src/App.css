@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1faee;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hero-section {
+  background-color: transparent !important;
+  background-size: cover;
+  color: black;
+  padding: 100px 0;
+}
+
+.about-section {
+  padding: 80px 0;
+  background-color: #e63946;
+}
+
+.resume-page {
+  padding: 50px;
+  background-color: #f1faee;
+}
+
+.contact-page {
+  /* padding: 20px; */
+  height: 150px;
+  background-color: #000;
+}
+
+.navbar-brand,
+.nav-link {
+  font-weight: bold;
+}
+
+.card {
+  width: 400px;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border: none !important;
+}
+
+.card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 350px;
+  height: 200px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+span {
+  width: fit-content;
+}
+
+.tag {
+  border: 1px solid grey;
+  width: fit-content;
+  font-size: small;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 2px 4px;
+  border-radius: 500px;
+}
+
+.ratingCard {
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.skills {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skill-bx {
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.skills p {
+  color: #B8B8B8;
+  font-size: 10px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+
+#fullimage{
+  background-image: url(./assets/images/mountainFull.jpg);
+}
+#layer2{
+  background-image: url(./assets/images/mountainLayer.png);
+}
