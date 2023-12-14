@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 
 const Card = ({ link, img, title, description, start, end, tags }) => {
   return (

@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import About from './components/About';
 import Resume from './components/Resume';
-import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
